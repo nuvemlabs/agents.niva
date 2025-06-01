@@ -48,13 +48,13 @@ clean: ## Clean up cache and build files
 	rm -rf dist/ build/ .coverage htmlcov/ .pytest_cache/ .mypy_cache/
 
 docker-build: ## Build Docker image
-	docker build -t agents-tracie:latest .
+	docker build -t agents-niva:latest .
 
 docker-run: ## Run Docker container (requires .env file)
-	docker run --env-file .env agents-tracie:latest
+	docker run --env-file .env agents-niva:latest
 
 docker-interactive: ## Run Docker container interactively
-	docker run -it --env-file .env agents-tracie:latest
+	docker run -it --env-file .env agents-niva:latest
 
 # Example usage targets
 example-basic: ## Run basic example

@@ -1,1 +1,1 @@
-"""Test suite for the agents.tracie project."""
+"""Test suite for the agents.niva project."""

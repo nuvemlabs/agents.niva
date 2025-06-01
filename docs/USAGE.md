@@ -49,4 +49,4 @@ make docker-build
 make docker-interactive
 
 # Run with query
-docker run --env-file .env agents-tracie:latest
+docker run --env-file .env agents-niva:latest
